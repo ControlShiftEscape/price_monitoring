@@ -1,0 +1,22 @@
+# Исключаем скрипты управления БД (чтобы не засорять репозиторий)
+create_db.py
+drop_all.py
+
+# Виртуальное окружение
+venv/
+.venv/
+env/
+
+# Байт-код Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и локальные настройки
+*.log
+.env
+.vscode/
+
+# Файлы ОС (Windows/Mac)
+Thumbs.db
+.DS_Store
